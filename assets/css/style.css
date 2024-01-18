@@ -1,11 +1,3 @@
-/**
-* Template Name: Kelly
-* Updated: Jan 09 2024 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -418,25 +410,25 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero {
+#inicio {
   width: 100%;
   height: 100vh;
   background: url("../img/bg.webp") top right;
   background-size: cover;
 }
 
-#hero .container {
+#inicio .container {
   padding-top: 70px;
   position: relative;
 }
 
 @media (max-width: 992px) {
-  #hero .container {
+  #inicio .container {
     padding-top: 58px;
   }
 }
 
-#hero h1 {
+#inicio h1 {
   margin: 0;
   font-size: 48px;
   font-weight: 700;
@@ -444,13 +436,13 @@ h6 {
   color: #222222;
 }
 
-#hero h2 {
+#inicio h2 {
   color: #6f6f6f;
   margin: 10px 0 0 0;
   font-size: 22px;
 }
 
-#hero .btn-about {
+#inicio .btn-quienes-somos {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 600;
@@ -465,18 +457,18 @@ h6 {
   background: #34b7a7;
 }
 
-#hero .btn-about:hover {
+#inicio .btn-quienes-somos:hover {
   background: #3dc8b7;
 }
 
 @media (min-width: 1024px) {
-  #hero {
+  #inicio {
     background-attachment: fixed;
   }
 }
 
 @media (max-width: 992px) {
-  #hero:before {
+  #inicio:before {
     content: "";
     background: rgba(255, 255, 255, 0.8);
     position: absolute;
@@ -486,12 +478,12 @@ h6 {
     right: 0;
   }
 
-  #hero h1 {
+  #inicio h1 {
     font-size: 28px;
     line-height: 36px;
   }
 
-  #hero h2 {
+  #inicio h2 {
     font-size: 18px;
     line-height: 24px;
   }
@@ -591,84 +583,33 @@ section {
 }
 
 /*--------------------------------------------------------------
-# About
+# quienes-somos
 --------------------------------------------------------------*/
-.about .content h3 {
+.quienes-somos .content h3 {
   font-weight: 700;
   font-size: 26px;
   color: #555555;
 }
 
-.about .content ul {
+.quienes-somos .content ul {
   list-style: none;
   padding: 0;
 }
 
-.about .content ul li {
+.quienes-somos .content ul li {
   padding-bottom: 10px;
 }
 
-.about .content ul i {
+.quienes-somos .content ul i {
   font-size: 20px;
   padding-right: 2px;
   color: #34b7a7;
 }
 
-.about .content p:last-child {
+.quienes-somos .content p:last-child {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Skills
---------------------------------------------------------------*/
-.skills .progress {
-  height: 60px;
-  display: block;
-  background: none;
-  border-radius: 0;
-}
-
-.skills .progress .skill {
-  padding: 10px 0;
-  margin: 0 0 6px 0;
-  text-transform: uppercase;
-  display: block;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  color: #222222;
-}
-
-.skills .progress .skill .val {
-  float: right;
-  font-style: normal;
-}
-
-.skills .progress-bar-wrap {
-  background: #f3f3f3;
-}
-
-.skills .progress-bar {
-  width: 1px;
-  height: 10px;
-  transition: 0.9s;
-  background-color: #34b7a7;
-}
-
-/*--------------------------------------------------------------
-# Facts
---------------------------------------------------------------*/
-.facts .counters span {
-  font-size: 48px;
-  display: block;
-  color: #34b7a7;
-}
-
-.facts .counters p {
-  padding: 0;
-  margin: 0 0 20px 0;
-  font-family: "Raleway", sans-serif;
-  font-size: 14px;
-}
 
 /*--------------------------------------------------------------
 # Testimonials
@@ -757,7 +698,7 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.services .icon-box {
+.servicios .icon-box {
   text-align: center;
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
@@ -765,7 +706,7 @@ section {
   box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
 }
 
-.services .icon-box .icon {
+.servicios .icon-box .icon {
   margin: 0 auto;
   width: 100px;
   height: 100px;
@@ -776,248 +717,110 @@ section {
   position: relative;
 }
 
-.services .icon-box .icon i {
+.servicios .icon-box .icon i {
   font-size: 36px;
   transition: 0.5s;
   position: relative;
 }
 
-.services .icon-box .icon svg {
+.servicios .icon-box .icon svg {
   position: absolute;
   top: 0;
   left: 0;
 }
 
-.services .icon-box .icon svg path {
+.servicios .icon-box .icon svg path {
   transition: 0.5s;
   fill: #f5f5f5;
 }
 
-.services .icon-box h4 {
+.servicios .icon-box h4 {
   font-weight: 600;
   margin: 10px 0 15px 0;
   font-size: 22px;
 }
 
-.services .icon-box h4 a {
+.servicios .icon-box h4 a {
   color: #222222;
   transition: ease-in-out 0.3s;
 }
 
-.services .icon-box p {
+.servicios .icon-box p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
 }
 
-.services .iconbox-blue i {
+.servicios .iconbox-blue i {
   color: #47aeff;
 }
 
-.services .iconbox-blue:hover .icon i {
+.servicios .iconbox-blue:hover .icon i {
   color: #fff;
 }
 
-.services .iconbox-blue:hover .icon path {
+.servicios .iconbox-blue:hover .icon path {
   fill: #47aeff;
 }
 
-.services .iconbox-orange i {
+.servicios .iconbox-orange i {
   color: #ffa76e;
 }
 
-.services .iconbox-orange:hover .icon i {
+.servicios .iconbox-orange:hover .icon i {
   color: #fff;
 }
 
-.services .iconbox-orange:hover .icon path {
+.servicios .iconbox-orange:hover .icon path {
   fill: #ffa76e;
 }
 
-.services .iconbox-pink i {
+.servicios .iconbox-pink i {
   color: #e80368;
 }
 
-.services .iconbox-pink:hover .icon i {
+.servicios .iconbox-pink:hover .icon i {
   color: #fff;
 }
 
-.services .iconbox-pink:hover .icon path {
+.servicios .iconbox-pink:hover .icon path {
   fill: #e80368;
 }
 
-.services .iconbox-yellow i {
+.servicios .iconbox-yellow i {
   color: #ffbb2c;
 }
 
-.services .iconbox-yellow:hover .icon i {
+.servicios .iconbox-yellow:hover .icon i {
   color: #fff;
 }
 
-.services .iconbox-yellow:hover .icon path {
+.servicios .iconbox-yellow:hover .icon path {
   fill: #ffbb2c;
 }
 
-.services .iconbox-red i {
+.servicios .iconbox-red i {
   color: #ff5828;
 }
 
-.services .iconbox-red:hover .icon i {
+.servicios .iconbox-red:hover .icon i {
   color: #fff;
 }
 
-.services .iconbox-red:hover .icon path {
+.servicios .iconbox-red:hover .icon path {
   fill: #ff5828;
 }
 
-.services .iconbox-teal i {
+.servicios .iconbox-teal i {
   color: #11dbcf;
 }
 
-.services .iconbox-teal:hover .icon i {
+.servicios .iconbox-teal:hover .icon i {
   color: #fff;
 }
 
-.services .iconbox-teal:hover .icon path {
+.servicios .iconbox-teal:hover .icon path {
   fill: #11dbcf;
-}
-
-/*--------------------------------------------------------------
-# Contact
---------------------------------------------------------------*/
-.contact .info {
-  width: 100%;
-  background: #fff;
-}
-
-.contact .info i {
-  font-size: 20px;
-  color: #34b7a7;
-  float: left;
-  width: 44px;
-  height: 44px;
-  background: #effbf9;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50px;
-  transition: all 0.3s ease-in-out;
-}
-
-.contact .info h4 {
-  padding: 0 0 0 60px;
-  font-size: 22px;
-  font-weight: 600;
-  margin-bottom: 5px;
-  color: #222222;
-}
-
-.contact .info p {
-  padding: 0 0 0 60px;
-  margin-bottom: 0;
-  font-size: 14px;
-  color: #555555;
-}
-
-.contact .info .email,
-.contact .info .phone {
-  margin-top: 40px;
-}
-
-.contact .info .email:hover i,
-.contact .info .address:hover i,
-.contact .info .phone:hover i {
-  background: #34b7a7;
-  color: #fff;
-}
-
-.contact .php-email-form {
-  width: 100%;
-  background: #fff;
-}
-
-.contact .php-email-form .form-group {
-  padding-bottom: 8px;
-}
-
-.contact .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-
-.contact .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  animation: animate-loading 1s linear infinite;
-}
-
-.contact .php-email-form input,
-.contact .php-email-form textarea {
-  border-radius: 4px;
-  box-shadow: none;
-  font-size: 14px;
-}
-
-.contact .php-email-form input:focus,
-.contact .php-email-form textarea:focus {
-  border-color: #34b7a7;
-}
-
-.contact .php-email-form input {
-  height: 44px;
-}
-
-.contact .php-email-form textarea {
-  padding: 10px 12px;
-}
-
-.contact .php-email-form button[type=submit] {
-  background: #34b7a7;
-  border: 0;
-  padding: 10px 30px 12px 30px;
-  color: #fff;
-  transition: 0.4s;
-  border-radius: 50px;
-}
-
-.contact .php-email-form button[type=submit]:hover {
-  background: #3dc8b7;
-}
-
-@keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
 }
 
 /*--------------------------------------------------------------
@@ -1033,7 +836,7 @@ section {
 
 #footer .credits {
   padding-top: 5px;
-  font-size: 13px;
+  font-size: 7px;
 }
 
 #footer .credits a {
